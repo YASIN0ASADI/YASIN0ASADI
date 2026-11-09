@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hero.svg" width="100%" alt="Invincible — Yasin Asadi. Security, networks and curiosity." />
+  <img src="hero.svg" width="100%" alt="Invincible — Yasin Asadi. Security, networks and curiosity." />
 </p>
 
 I'm **Yasin**, also known as **Invincible** — a security and networking enthusiast who enjoys understanding systems and building useful tools.
@@ -35,7 +35,7 @@ Building, measuring and learning — one iteration at a time.
 
 ### My learning path
 
-<img src="assets/focus.svg" width="100%" alt="Exploring web security and networking. Working with Bash and Linux. Learning JavaScript and Python." />
+<img src="/focus.svg" width="100%" alt="Exploring web security and networking. Working with Bash and Linux. Learning JavaScript and Python." />
 
 - **Interested in:** web security, networking and Linux systems.
 - **Working with:** Bash and Linux to automate and investigate.
