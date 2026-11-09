@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="430" viewBox="0 0 1100 430" role="img" aria-labelledby="title desc">
+<title id="title">Invincible — Yasin</title><desc id="desc">Security, networks and curiosity. Monochrome animated network orbit and a terminal, with moving packets and a scanning light.</desc>
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#111111"/><stop offset="1" stop-color="#030303"/></linearGradient>
+ <linearGradient id="white"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#777777"/></linearGradient>
+ <linearGradient id="beam"><stop stop-color="#ffffff" stop-opacity="0"/><stop offset=".5" stop-color="#ffffff" stop-opacity=".6"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+ <radialGradient id="halo"><stop stop-color="#ffffff" stop-opacity=".10"/><stop offset="1" stop-color="#000000" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#ffffff" stroke-opacity=".035"/></pattern>
+ <clipPath id="frame"><rect x="1" y="1" width="1098" height="428" rx="22"/></clipPath>
+ <clipPath id="typing"><rect x="116" y="333" width="280" height="25"><animate attributeName="width" values="0;0;219;219;0" keyTimes="0;.1;.48;.91;1" calcMode="linear" dur="10s" repeatCount="indefinite"/></rect></clipPath>
+ <path id="r1" d="M750 111H876V159H1008V287H918V331H754V254"/>
+ <path id="r2" d="M754 254H823V217H916V112H1008"/>
+ <path id="r3" d="M823 217H724V331H918V287H1008"/>
+</defs>
+<g clip-path="url(#frame)">
+ <rect width="1100" height="430" fill="url(#bg)"/>
+ <rect width="1100" height="430" fill="url(#grid)"/>
+ <ellipse cx="870" cy="213" rx="277" ry="236" fill="url(#halo)"/>
+ <path d="M110 430 540 0M380 430 810 0" stroke="#ffffff" opacity=".025"/>
+ <rect x="-160" y="0" width="140" height="430" fill="url(#beam)" opacity=".10" transform="skewX(-14)"><animate attributeName="x" from="-160" to="1400" dur="12s" repeatCount="indefinite"/></rect>
+ <path d="M36 70V36H70M1030 394h34v-34" stroke="#777777" fill="none"/>
+ <g font-family="Arial,Helvetica,sans-serif">
+  <text x="61" y="78" fill="#a6a6a6" font-size="12" letter-spacing="4">YASIN / @YASIN0ASADI</text>
+  <text x="57" y="180" fill="#f5f5f5" font-size="75" font-weight="800" letter-spacing="-3">INVINCIBLE<tspan fill="#999999">.</tspan></text>
+  <rect x="62" y="204" width="71" height="3" rx="1.5" fill="#ffffff"><animate attributeName="width" values="71;115;71" dur="6s" repeatCount="indefinite"/></rect>
+  <text x="62" y="250" fill="#c0c0c0" font-size="22">Security. Networks. Curiosity.</text>
+  <text x="62" y="282" fill="#777777" font-size="15">Learning how systems work. Building things along the way.</text>
+ </g>
+ <rect x="62" y="322" width="533" height="51" rx="10" fill="#080808" stroke="#303030"/>
+ <g font-family="monospace" font-size="14">
+  <text x="81" y="352" fill="#777777">$</text>
+  <g clip-path="url(#typing)"><text x="116" y="352" fill="#dfdfdf">./keep-learning --every-day</text></g>
+  <rect x="116" y="336" width="7" height="18" fill="#e8e8e8"><animate attributeName="x" values="116;116;335;335;116" keyTimes="0;.1;.48;.91;1" dur="10s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.45;.5;1" dur="1s" repeatCount="indefinite"/></rect>
+ </g>
+ <g fill="none" stroke="#414141" stroke-width="1"><use href="#r1"/><use href="#r2"/><use href="#r3"/></g>
+ <g fill="#f5f5f5">
+  <circle r="3.5"><animateMotion dur="7s" repeatCount="indefinite"><mpath href="#r1"/></animateMotion></circle>
+  <circle r="2.7"><animateMotion dur="5s" repeatCount="indefinite"><mpath href="#r2"/></animateMotion></circle>
+  <circle r="2.5" fill="#999999"><animateMotion dur="9s" repeatCount="indefinite"><mpath href="#r3"/></animateMotion></circle>
+ </g>
+ <g transform="translate(870 218)">
+  <circle r="77" fill="#080808" stroke="#383838"/>
+  <circle r="92" fill="none" stroke="#686868" stroke-dasharray="21 12 2 12" opacity=".7"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="35s" repeatCount="indefinite"/></circle>
+  <g fill="none" stroke="#9b9b9b" stroke-width="1">
+   <ellipse rx="109" ry="41" transform="rotate(-38)"/>
+   <circle cx="109" r="3" fill="#eeeeee" transform="rotate(-38)"><animateTransform attributeName="transform" type="rotate" from="-38" to="322" dur="18s" repeatCount="indefinite"/></circle>
+  </g>
+  <circle r="70" fill="none" stroke="#eeeeee" opacity=".12"><animate attributeName="r" from="70" to="116" dur="4s" repeatCount="indefinite"/><animate attributeName="opacity" from=".23" to="0" dur="4s" repeatCount="indefinite"/></circle>
+  <path d="m-39-22-15 22 15 22m78-44 15 22-15 22M-13-37h26v12H5v50h8v12h-26V25h8v-50h-8z" fill="none" stroke="#ededed" stroke-width="3" stroke-linejoin="round"/>
+ </g>
+ <g font-family="monospace" font-size="10" letter-spacing="2" text-anchor="middle">
+  <rect x="718" y="84" width="66" height="54" rx="11" fill="#0c0c0c" stroke="#5f5f5f"/>
+  <path d="m737 105-7 7 7 7m25-14 7 7-7 7m-15 6 5-26" stroke="#dddddd" fill="none" stroke-width="1.5"/>
+  <text x="751" y="157" fill="#777777">BUILD</text>
+  <rect x="972" y="85" width="72" height="55" rx="11" fill="#0c0c0c" stroke="#444444"/>
+  <path d="M989 102h13v8h-13zm25 14h13v8h-13zm-12-10h16v14" fill="none" stroke="#cccccc" stroke-width="1.3"/>
+  <text x="1008" y="159" fill="#777777">CONNECT</text>
+  <rect x="721" y="307" width="67" height="49" rx="11" fill="#0c0c0c" stroke="#444444"/>
+  <path d="m754 315 11 4v9c0 8-6 13-11 15-5-2-11-7-11-15v-9z" fill="none" stroke="#dddddd" stroke-width="1.4"/>
+  <text x="754" y="376" fill="#777777">UNDERSTAND</text>
+ </g>
+ <g fill="#111111" stroke="#777777"><circle cx="918" cy="331" r="4"/><circle cx="1008" cy="287" r="4"/><circle cx="724" cy="217" r="4"/></g>
+ <text x="1037" y="398" font-family="monospace" font-size="10" letter-spacing="2" fill="#575757" text-anchor="end">LEARN / BUILD / REPEAT</text>
+</g>
+<rect x="1" y="1" width="1098" height="428" rx="22" fill="none" stroke="#333333"/>
+</svg>
